@@ -1,6 +1,6 @@
 {
     "name": "zhf.random-password",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "no description",
     "main": "dist/index.min.js",
     "scripts": {
@@ -36,7 +36,6 @@
         "jest": "^22.1.1"
     },
     "dependencies": {
-        "random-num": "^1.1.3",
         "zhf.extend": "^2.0.1",
         "zhf.random-num": "^1.0.1"
     }

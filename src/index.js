@@ -21,11 +21,11 @@ function randomPassword(length = 6, opts) {
                 delete rule[key];
             }
         });
-        let ruleNew = [];
+        const ruleNew = [];
         Object.keys(rule).forEach((key) => ruleNew.push(rule[key]));
-        let ruleNewLen = ruleNew.length;
+        const ruleNewLen = ruleNew.length;
         if (ruleNewLen !== 0) {
-            let resultNew = [];
+            const resultNew = [];
             const ruleNewLen = ruleNew.length;
             for (let i = 0; i < length; i++) {
                 const nowIndex = i % ruleNewLen;
