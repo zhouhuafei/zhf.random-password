@@ -26,7 +26,7 @@ randomPassword(8, {
     hasLowerCase: true, // 是否有小写字母
     hasNumber: true, // 是否有数字
     hasCharacter: false, // 是否有特殊字符
-}); // 1h1nYDlP
+}); // Skb64yGI
 ```
 
 
