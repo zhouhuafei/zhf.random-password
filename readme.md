@@ -9,7 +9,7 @@ const randomPassword = require('zhf.random-password');
 ```
 
 # 第一参数密码长度
-* 密码长度默认是6位 最小是4位 最大是16位
+* 密码长度默认是6位
 ```
 randomPassword(); // r6!QkV
 randomPassword(8); // 6@2y#VsR
