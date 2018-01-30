@@ -25,8 +25,8 @@ randomPassword(8, {
     hasUpperCase: true, // 是否有大写字母
     hasLowerCase: true, // 是否有小写字母
     hasNumber: true, // 是否有数字
-    hasCharacter: true, // 是否有特殊字符
-}); // 2$yrQP8#
+    hasCharacter: false, // 是否有特殊字符
+}); // 1h1nYDlP
 ```
 
 
